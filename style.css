@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #a2dddf;
+  margin: 0;
+  padding: 150px;
+}
+.resume-container {
+  display: flex;
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(48, 42, 42, 0.2);
+}
+.left-section {
+  background-color: #757272;
+  color: white;
+  padding: 30px;
+  width: 35%;
+  text-align: center;
+  border-right: 5px solid #0e8185;
+}
+.profile {
+  width: 150px;
+  height: 190px;
+  margin-top: 20%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #09575a;
+  margin-bottom: 50px;
+  text-align: right; 
+}
+h1 {
+  font-size: 24px;
+  margin: 10px 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+h3 {
+  font-size: 18px;
+  padding: 2%;
+  margin: 20px 0 10px;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #0e8185;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+ul {
+  list-style-type: fill round;
+  padding: 10;
+  margin: 10px 0;
+}
+ul li {
+  margin: 5px 0;
+}
+.right-section {
+  padding: 20px;
+  width: 95%;
+  margin-right: 10px;
+  padding-right: 20px;
+}
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  box-shadow: 0 0 15px black;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 18px;
+}
+button:hover {
+  background-color: dimgray;
+}
